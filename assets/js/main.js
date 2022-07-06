@@ -31,13 +31,13 @@
 
 					// Images (in the format of 'url': 'alignment').
 						images: {
-							'images/1.png': 'center',
-							'images/2.png': 'center',
-							'images/3.png': 'center',
-							'images/4.png': 'center',
-							'images/5.png': 'center',
-							'images/6.png': 'center',
-							'images/7.png': 'center'
+							'../assets/images/1.png': 'center',
+							'../assets/images/': 'center',
+							'../assets/images/': 'center',
+							'../assets/images/': 'center',
+							'../assets/images/': 'center',
+							'../assets/images/': 'center',
+							'../assets/images/': 'center'
 						},
 
 					// Delay.

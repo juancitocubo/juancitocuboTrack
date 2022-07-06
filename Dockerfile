@@ -11,16 +11,16 @@ RUN apt-get update                                                   \
  && apt-get autoremove --quiet --yes                                 \
  && rm -rf /var/lib/apt/lists/*
 
-WORKDIR /usr/src/minetrack
+WORKDIR /usr/src/track
 COPY . .
 
 RUN npm install --build-from-source \
  && npm run build
 
-RUN addgroup --gid 10043 --system minetrack \
- && adduser  --uid 10042 --system --ingroup minetrack --no-create-home --gecos "" minetrack \
- && chown -R minetrack:minetrack /usr/src/minetrack
-USER minetrack
+RUN addgroup --gid 10043 --system track \
+ && adduser  --uid 10042 --system --ingroup track --no-create-home --gecos "" track \
+ && chown -R track:track /usr/src/track
+USER track
 
 EXPOSE 8080
 

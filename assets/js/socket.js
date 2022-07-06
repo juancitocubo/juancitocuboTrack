@@ -111,7 +111,7 @@ export class SocketManager {
               const serverRegistration = this._app.serverRegistry.getServerRegistration(serverName)
 
               controlsHTML += `<td>
-                <input type="checkbox" class="graph-control" minetrack-server-id="${serverRegistration.serverId}" ${serverRegistration.isVisible ? 'checked' : ''}>
+                <input type="checkbox" class="graph-control" track-server-id="${serverRegistration.serverId}" ${serverRegistration.isVisible ? 'checked' : ''}>
                 ${serverName}
                 </input></td>`
 

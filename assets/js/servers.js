@@ -108,7 +108,7 @@ export class ServerRegistration {
           y: false
         },
         sync: {
-          key: 'minetrack-server',
+          key: 'track-server',
           setSeries: true
         }
       },

@@ -30,11 +30,6 @@
   --text-color-inverted: #FFF;
 }
 
-body {
-  background: #212021;
-  color: #FFF;
-}
-
 @media (prefers-color-scheme: dark) {
   :root {
     --color-purple: var(--color-dark-purple);
@@ -46,10 +41,6 @@ body {
     --text-color-inverted: #000;
   }
 
-  body {
-    background: #1c1b1c;
-    color: #FFF;
-  }
 }
 
 body {
